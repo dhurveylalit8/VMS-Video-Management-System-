@@ -13,5 +13,5 @@ module.exports = app => {
 
     app.put("/category/:id", categories.update)
 
-    // app.put("/category/delete/:id", categories.delete)
+    app.put("/category/delete/:id", categories.delete)
 }
