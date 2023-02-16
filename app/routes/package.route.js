@@ -13,5 +13,5 @@ module.exports = app => {
 
     app.put("/package/:id", packages.update)
 
-    // app.put("/package/delete/:id", packages.delete)
+    app.put("/package/delete/:id", packages.delete)
 }
