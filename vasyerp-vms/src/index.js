@@ -1,6 +1,7 @@
 
 import React from "react";
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom";
+import ReactDom from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "assets/plugins/nucleo/css/nucleo.css";
@@ -10,7 +11,7 @@ import "assets/scss/argon-dashboard-react.scss";
 import AdminLayout from "layouts/Admin.js";
 import AuthLayout from "layouts/Auth.js";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDom.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>

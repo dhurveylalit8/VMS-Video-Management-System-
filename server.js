@@ -39,6 +39,7 @@ app.get("/", (req, res)=>{
 })
 
 require("./app/routes/categories.route")(app);
+require("./app/routes/package.route")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 9090;

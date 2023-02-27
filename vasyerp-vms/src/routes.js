@@ -6,6 +6,7 @@ import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Category from "views/examples/Category.js";
+import PackageManagement from "views/examples/PackageManagement.js";
 import Icons from "views/examples/Icons.js";
 
 var routes = [
@@ -49,6 +50,13 @@ var routes = [
     name: "Category",
     icon: "ni ni-bullet-list-67 text-red",
     component: Category,
+    layout: "/admin"
+  },
+  {
+    path: "/packages",
+    name: "PackageManagement",
+    icon: "ni ni-bullet-list-67 text-red",
+    component: PackageManagement,
     layout: "/admin"
   },
   {
